@@ -32,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tp2NaLGfBH1PEp_oJgmP-30" value="Weapon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="760" width="340" height="190" as="geometry" />
+          <mxGeometry x="840" y="760" width="340" height="242" as="geometry" />
         </mxCell>
         <mxCell id="Tp2NaLGfBH1PEp_oJgmP-31" value="+ std :: string name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tp2NaLGfBH1PEp_oJgmP-30" vertex="1">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
@@ -54,6 +54,12 @@
         </mxCell>
         <mxCell id="Tp2NaLGfBH1PEp_oJgmP-37" value="+ empowerEffect(Player* owner, Player* target): virtual void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tp2NaLGfBH1PEp_oJgmP-30" vertex="1">
           <mxGeometry y="164" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7MCezDIyi81Rb0fGCM2b-40" value="+ revertAttack(Player* owner): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Tp2NaLGfBH1PEp_oJgmP-30">
+          <mxGeometry y="190" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7MCezDIyi81Rb0fGCM2b-41" value="+ empowerEffect(Player* owner): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Tp2NaLGfBH1PEp_oJgmP-30">
+          <mxGeometry y="216" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qivGLFq7kzgAOccHY3b_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Tp2NaLGfBH1PEp_oJgmP-38" target="Tp2NaLGfBH1PEp_oJgmP-60" edge="1">
           <mxGeometry relative="1" as="geometry">
